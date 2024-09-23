@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .highlighted {
+            color: rgb(255, 170, 0);
+            font-weight: bold;
+        }
+
+        .caixa-útil {
+            border: 5px solid rgb(102, 123, 216);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .cortexto {
+            color: rgb(151, 169, 255);
+        }
+    </style>
+    <title>Site Extremamente Útil Para O Lab 02</title>
+</head>
+
+<body style="background-color: #4d008d;">
+    <div class="cortexto">
+        <h1>Este é um Cabeçalho de Nível 1 (Sendo o Maior Nível)</h1>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 1</p>
+        <h2>Este é um Cabeçalho de Nível 2</h2>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 2</p>
+        <h3>Este é um Cabeçalho de Nível 3</h3>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 3</p>
+        <h4>Este é um Cabeçalho de Nível 4</h4>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 4</p>
+        <h5>Este é um Cabeçalho de Nível 5</h5>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 5</p>
+        <h6>Este é um Cabeçalho de Nível 6 (Sendo o Menor Nível)</h6>
+        <p>Este é um parágrafo que acompanha o Cabeçalho de Nível 6</p><br><br>
+
+        <div class="caixa-útil">
+            <h1>Lista de Compras (Não Ordenada)</h1>
+            <ul>
+                <li>3kg de Milho</li>
+                <li>20L de Leite</li>
+                <li>Bolacha Bono</li>
+                <li>55 Pães Franceses</li>
+            </ul>
+        </div>
+
+        <div class="caixa-útil">
+            <h2>Lista de Afazeres (Ordenada)</h2>
+            <ol>
+                <li>Acordar</li>
+                <li>Adquirir Combustível (Cafézinho)</li>
+                <li>Criar Bugs (Programar)</li>
+                <li>Dormir</li>
+            </ol>
+        </div>
+
+        <div class="caixa-útil">
+            <h2>Formulário-Extremamente-Útil-Pertencente-Ao-Site-Extremamente-Útil-Com-Propósito-Extremamente-Útil</h2>
+            <form action="/send_form" method="post">
+                <label for="nome_do_usuário">Nome:</label>
+                <input type="text" id="nome_do_usuário" name="nome_do_usuário"><br><br>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="escolha-útil">Escolha Algo Útil:</label>
+                <select name="escolha-útil" id="escolha-útil">
+                    <option value="default"></option>
+                    <option value="esse_site">Esse Site</option>
+                    <option value="yt">O Youtube (Concorrente)</option>
+                    <option value="WXP">O Windows XP</option>
+                    <option value="batata">Uma Batata</option>
+                </select><br><br>
+
+                <label for="menssagem">Escreva Algo:</label><br>
+                <textarea id="menssagem" name="menssagem" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Send">
+
+                <p>Suas informações são protegidas pela nossa tecnologia de criptografia: <span
+                        class="highlighted">EuNãoSeiCriptografar.INC</span></p>
+            </form>
+        </div>
+
+        <div class="caixa-útil">
+            <h2>Isso É Um Retângulo</h2>
+            <p>quase certeza...</p>
+            <canvas id="canvas_verdadeiro" width="500" height="250" style="border:100px solid #ffa42c;"></canvas>
+            <script>
+                var c = document.getElementById("canvas_verdadeiro");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#DDa42c";
+                ctx.fillRect(100, 100, 300, 50);
+            </script>
+            <p>talvez seja mais de 1 Retângulo...</p>
+        </div>
+
+        <div class="caixa-útil">
+            <h2>Gráfico-Com-Informações-Extremamente-Úteis-E-Verdadeiras</h2>
+            <svg width="200" height="200">
+                <circle cx="100" cy="100" r="80" stroke="purple" stroke-width="40" fill="orange" />
+            </svg>
+        </div>
+
+        <div class="caixa-útil">
+
+            <div class="caixa-útil">
+            <h2>Cavalo</h2>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Seu navegador não suporta reproduções de áudio.
+            </audio>
+            </div><br><br>
+
+            <div class="caixa-útil">
+                <h2>Exemplo de um Boss Difícil</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LQ2vW_CTuAM?si=wWz6SGbjhelPl4FB"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Esse jogo é difícil</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

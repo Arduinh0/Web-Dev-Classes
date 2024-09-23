@@ -1,0 +1,50 @@
+header {
+    background-color: #1e1e1e;
+    color: rgb(227, 227, 227);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.coolblock {
+    background-color: #3a3a3a;
+    color: rgb(227, 227, 227);
+    padding: 10px 0;
+    text-align: center; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: rgb(70, 70, 70);
+}
+
+footer{
+    background-color: #1e1e1e;
+    color: rgb(227, 227, 227);
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    border-color: #3a3a3a;
+    background-color: #1e1e1e;
+    color: rgb(227, 227, 227);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#question-container div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Faz cada resposta aparecer em uma nova linha */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
